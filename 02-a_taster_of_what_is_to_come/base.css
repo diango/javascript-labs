@@ -1,0 +1,117 @@
+/*=======================
+        START BASE CSS
+=========================*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #333;
+}
+
+.container {
+    max-width: 85%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    background-color: #759;
+    color: #fff;
+    margin: 35px auto;
+    border-radius: 8px;
+}
+
+/*=======================
+        END BASE CSS
+=========================*/
+
+/*=======================
+       START HEADER 
+=========================*/
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+    padding: 25px 0;
+    font-size: 29px;
+}
+
+p a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px solid goldenrod;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    margin: 0 30px;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+a:hover {
+    background-color: #fff;
+    color: #759;
+}
+
+/*=======================
+        END HEADER
+=========================*/
+
+
+/*=======================
+        START MAIN
+=========================*/
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 30px 20px;
+    text-decoration: double;
+    text-decoration-color: goldenrod;
+}
+
+.main-history p, .description-1 p, .description-2 p, .description-3 p{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0 75px;
+}
+/*=======================
+        END MAIN
+=========================*/
+
+
+/*=======================
+        START FOOTER
+=========================*/
+#footer {
+    margin-top: 35px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+#footer p a {
+    border: none;
+    margin-bottom: 25px;
+}
+/*=======================
+        END FOOTER
+=========================*/
