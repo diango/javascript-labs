@@ -37,4 +37,4 @@ let age = 30;
 console.log(`${greeting} ${friendName}`);
 console.log(greeting + " " + famillyMember);
 console.log(`${numberDay} ${month}: ${greeting} ${friendName}`);
-console.log(`In 20 years I will be ${age + 20} years old`);
+console.log(`In 20 years I will be ${age + 20} years old.`);
