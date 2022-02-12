@@ -25,3 +25,16 @@
  * support for it is not everywhere.
  */
 
+const myName = `Mamadou Badiane`;
+let greeting = `Good day to you`;
+let friendName = `Nomad`;
+let famillyMember = `Ousmane`;
+let numberDay = 12;
+let month = `February`;
+let year = 2022;
+let age = 30;
+
+console.log(`${greeting} ${friendName}`);
+console.log(greeting + " " + famillyMember);
+console.log(`${numberDay} ${month}: ${greeting} ${friendName}`);
+console.log(`In 20 years I will be ${age + 20} years old`);

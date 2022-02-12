@@ -21,5 +21,19 @@
  * with clear and descriptive names.
  */
 
-let result = 0
-console.log("Label", result)
+let firstNumber = 4200;
+let secondNumber = 1800;
+let thirdNumber = 6633;
+let luckyNumber = 7;
+
+console.log(`The sum of ${firstNumber} + ${secondNumber} + ${thirdNumber} is: ${firstNumber + secondNumber + thirdNumber}`);
+console.log(`The result of subtracting the two smallest numbers from the larger one is: ${thirdNumber - (firstNumber + secondNumber)}`);
+console.log(`The result of multiplying all the numbers: ${firstNumber * secondNumber * thirdNumber}`);
+console.log(`The result of the largest number divided by the difference between the smaller ones ${thirdNumber / (firstNumber - secondNumber)}`);
+console.log(`The sum of the all numbers modulo ${luckyNumber} is: ${(firstNumber + secondNumber + thirdNumber) % luckyNumber}`);
+
+// I am omitting the let key word
+// Because result variable was declared in 01.js
+
+result = 0;
+console.log("Label", result);

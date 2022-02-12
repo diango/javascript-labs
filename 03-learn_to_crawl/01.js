@@ -4,7 +4,5 @@
 
 
 let result;
-let result          =       78347823   *
-    843972    ;
-
-console.log(result)
+result = 78347823 * 843972;
+console.log(result);
