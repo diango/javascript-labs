@@ -9,3 +9,17 @@ function getRandomNumber(){
  *    random numbers until it has generated one that is divisible by 11. Do you
  *    remember what operator to use?
  */
+
+
+let index = 5;
+while (index < 1000) {
+    console.log(index);
+    index += 5;
+}
+
+
+let count = 100;
+while (count >= -100) {
+    console.log(count);
+    count--;
+}

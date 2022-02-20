@@ -14,3 +14,15 @@
  * find both ways!
  *
  */
+
+/*
+for (let i = 5; i < 1000; i += 5) {
+    console.log(i);
+}
+
+
+for (let index = 100; index >= -100; index--) {
+    console.log(index);
+}
+*/
+
